@@ -1,0 +1,132 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0 0 40px 0;
+  position:relative;
+  background: #f7f7f7;
+  font-weight:200;
+  font-family:'Lato';
+  min-height:98.7%;
+}
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    font-family:sans-serif;
+    text-transform: uppercase;
+}
+.container {
+    width: 1000px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(img/colorful.gif);
+    margin: 20px auto;
+}
+
+#calculator {
+    padding: 20px ;
+    width: 350px;
+    height: 560px;
+    background-color: #000;
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#display {
+  background:#202020;
+  width:262px;
+  height:25%;
+  margin:0px auto 0 auto;
+  text-align:right;
+  font-size: 50px;
+  color:white;
+  position:relative;
+  padding-bottom:0px;
+}
+
+#display span {
+  position:absolute;
+  bottom:0px;
+  right:10px;
+}
+
+#name {
+  margin:5% auto 1% auto;
+  text-align:center;
+  color:black;
+}
+
+.button {
+    height:50px;
+    width:50px;
+    margin:15px;
+    display:inline;
+    float:left;
+    padding-top:0;
+    border-radius: 50%;
+    border-style:solid solid none none;
+    border-width:thin;
+    border-color:rgb(120, 120, 120);
+    background-color: #C5C5C7;
+    font-size:24px;
+    text-align:center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  
+}
+
+.button:focus, #home:focus {
+  outline:0;
+}
+
+.button:active, #home:active {background-color:#C5C5C7;}
+
+.button:hover, #home:hover {cursor:default;}
+
+.btnO {
+  background-color:#FF8C2D;
+  
+}
+
+.btnO:active {
+  background-color:#d67526;
+}
+
+.btnO:focus {
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.btnEquals:focus {
+  border-style:solid;
+  border-width:.01cm;
+  border-color:rgb(102, 102, 102);
+}
+
+.btnDG {
+  background-color:#C5C5C7;
+}
+
+.btnDG:active {
+  background-color:#aeaeaf;
+}
+
+
+
+.button btnG0{
+    font-size: 20px;
+    color: #fff;
+    width: 130px;
+    border-radius: 25px;
+
+    background-color: #919191;
+}
