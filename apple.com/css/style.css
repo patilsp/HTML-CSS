@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    letter-spacing: .022em;
+    font-family: "Helvetica","Arial",sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    font-style: normal;
+}
+
+#navigation {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    display: block;
+    margin: 0;
+    width: 100%;
+    min-width: 1024px;
+    height: 48px;
+    max-height: 44px;
+    background: rgba(45,45,45,0.98);
+ 
+}
+#navigation li {
+    display: flex;
+    align-content: space-between;
+    text-align: center;
+    padding: 0px 25px;
+}
+
+#navigation li a {
+    color: #f7f7f7;
+    margin: auto;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+#navigation li a:hover {
+    color: #ccc;
+}
+.menu{
+    top: 0;
+    left: 0;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px;
+}
+.navbar-nav{
+    top: 10px;
+    left: 180px; 
+    position: absolute;
+    color: #fff;
+     background-color: transparent;
+    text-align: center;
+}
+
+.fab{
+    font-size: 18px;
+}
+.fa{
+    font-size: 16px;
+}
+.banner-text{
+    position: relative;
+    text-align: center;
+    top: 40px;
+    padding: 10px;
+    pointer-events: none;
+
+}
+.banner-heading{
+    color: #000000;
+    font-weight: 700;
+    font-size: 36px;
+}
+p {
+    color: #000;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: .5px;
+}
+.img-box{
+    position: relative;
+    top: 30px;
+    height: 80vh;
+    background-image: url(../img/iphone-xr.jpg);
+    background-size: cover;
+    background-color: transparent;
+
+}    
+.btn {
+    background-color: transparent;
+    color: rgb(0, 112, 201);
+    border: none;
+    font-size: 20px;
+}
+    
+    
+    
