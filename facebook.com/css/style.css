@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+    font-style: normal;
+    background: #fff;
+    color: #1c1e21;
+    line-height: 1.34;  
+    background-image: linear-gradient(#ffffff, #D3D8E8); 
+}
+
+#navigation{
+    top: 0;
+    left: 0;
+    padding: 0px;
+    margin: 0 auto;
+    height: 82px;
+    min-width: 980px;
+    background-color: #385898;
+}
+.logo{
+    font-weight: 600;
+    font-size: 32px;
+    width: 170px;
+    height: 34px;
+    padding: 0px 145px;
+    margin-top: 14px;
+    color: #F5F5F5; 
+    cursor: pointer;
+}
+.logo:hover{
+     color: #F5F5F5;
+     text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+#login-form {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 50px;
+}
+
+.label {
+    font-size: 12px;
+    color: #fff;
+    padding: 0px 10px;
+}
+
+.inputtext{
+    padding: 5px;
+    font-size: 10px;
+ 
+}
+.inputtype{
+    padding: 0px 10px;
+}
+
+.input {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+   
+}
+
+
+#loginbutton {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+.btn{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 14px;
+    background-color: #364878;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.frgtbtn{
+    color: #ccc;
+    font-size: 12px;
+    margin: 0px 12px;
+    border: none;
+    cursor: pointer;
+}
+.frgtbtn:hover{
+    color: #ccc;
+}
+.container{
+    margin: 0 auto;
+    position: relative;   
+}
+
+.paragraph{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #0e385f;
+    line-height: 29px;
+    margin-top: 40px;
+}
+.paragraph2{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin-top: 20px;
+    color: #283644;
+    
+}
+.banner-img{
+    width: 537px;
+    height: 200px;
+}
+
+h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 36px;
+    padding: 10px;
+    color: #283644;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 10px;
+    color: #283644;
+}
+.input-form{
+    font-size: 12px;
+}
+
+.form-control{
+    padding: 20px;
+    margin: 10px;
+}
+.form-check{
+    
+    margin: 10px;
+}
+.submit{
+    width: 35%;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+}
