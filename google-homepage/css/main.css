@@ -1,0 +1,146 @@
+/*Alignment and fonts*/
+body, html{    
+    font-size: small;
+    min-width: 860px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    padding: 50px 0px 0px 0px;
+    color: black;
+}
+a:visited{
+    text-decoration: none;
+}
+
+
+a:hover{
+    text-decoration: underline;
+}
+
+input:hover{
+    border-color: grey;
+}
+
+li{
+    display: inline;
+    color: #666;
+    font-size: 45%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+li img{
+    vertical-align: middle;
+}
+
+
+/*Header*/
+#header{
+    text-align: right;
+    padding: 15px 14px 151px 0px;
+
+}
+#header ul li{
+
+    padding: 0px 15px 10px 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
+
+/*Middle*/
+#middle{
+    text-align: center;
+}
+
+#logo1{
+    width: 325px;
+    height: auto;
+}
+
+#inputSearch{
+    height: 30px;
+    width: 400px;
+    border: 1px solid #e4e4e4;
+
+}
+
+#searchButton{
+    box-shadow:inset 1px -50px 0px 0px #ffffff;
+    background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+    background-color:#ededed;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    padding:5px 19px;
+    text-decoration:none;
+    margin-right: 5px;
+}
+#searchButton:hover {
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color:#dfdfdf;
+    border: 1px solid;
+}
+#searchButton:active {
+    position:relative;
+    top:1px;
+}
+
+#luckyButton{
+    box-shadow:inset 1px -50px 0px 0px #ffffff;
+    background-color:#ededed;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#777777;
+    font-family: 'Open Sans', sans-serif;
+    font-size:13px;
+    font-weight:bold;
+    padding:5px 19px;
+    text-decoration:none;
+    margin-left: 5px;
+}
+#luckyButton:hover {
+    background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+    background-color:#dfdfdf;
+    border: 1px solid;
+}
+#luckyButton:active {
+    position:relative;
+    top:1px;
+}
+
+/*footer*/
+footer {
+    border-type: 1px solid #e4e4e4;
+    line-height: 40px;
+    min-width: 800px;
+    height: 40px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: #f2f2f2;
+    border-collapse: collapse;
+}
+#leftBottom{
+    padding-top: 10px;
+}
+
+#leftBottom ul li{
+    float: left;
+}
+#rightBottom ul li{
+    float: right;
+}
+#leftBottom ul li a, #rightBottom ul li a{
+    padding: 5px 22px 0px 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+}
