@@ -8,7 +8,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+    	vertical-align: baseline;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -2836,7 +2836,7 @@
 	}
 
 		.wrapper.style1 {
-			background-color: #F64747;
+			background-color: #1b1b1b;
 			color: #fdd1d1;
 		}
 
@@ -3330,7 +3330,7 @@
 
 		#header.alt {
 			top: 0;
-			background: #F64747;
+			background: #1b1b1b;
 		}
 
 		#header .logo {
@@ -3800,6 +3800,39 @@
 
 /* Banner */
 
+.five{
+	background: #1b1b1b;
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	padding: 10px;
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: .5px;
+    color: #f2f2f2;
+	
+}
+
+p {
+	color: #bdbdbd;
+}
+
+.heading{
+	text-align: center;
+	padding: 10px;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+#deals {
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+}
 	#post {
 		background-position: center;
 		background-size: cover;
