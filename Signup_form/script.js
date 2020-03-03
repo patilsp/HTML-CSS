@@ -4,7 +4,7 @@ const container = document.getElementById('container');
 
 
 signUpButton.addEventListener('click', () =>
-    conatiner.classList.add('right-panel-active')                
+    container.classList.add('right-panel-active')                
                               
 );
 
